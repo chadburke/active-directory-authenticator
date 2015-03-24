@@ -10,6 +10,7 @@ I've not yet solved the 2008 issue but I'm comfortable using the code on a Serve
 Also, if you end up getting a security alert along the lines of `x is security transparent, but is a member of a security critical type.` when trying to run the code adding the following to AssemblyInfo.cs appears to fix it :
 
 To the top :
+
 `using System.Security; // Requires reference to System.Security`
 
 To the bottom :
